@@ -8,8 +8,7 @@ Daniel Li - 99157575
 
 You will need a recent version of Python (tested with Python 3.14.3).
 
-`cache.py` reads from the provided file,
-or standard input if no file is specified. Example:
+`cache.py` reads from the specified file or standard input. Example:
 
 ```
 ./cache.py examples/example.in
@@ -39,3 +38,15 @@ FIFO  : <number_of_misses>
 LRU   : <number_of_misses>
 OPTFF : <number_of_misses>
 ```
+
+where the three policies are:
+
+* FIFO = first-in-first-out
+* LRU = least recently used
+* OPTFF = Belady's farthest-in-future, optimal offline
+
+## Empirical Comparison
+
+## Bad Sequence for LRU or FIFO
+
+## Proof of OPTFF Optimality
