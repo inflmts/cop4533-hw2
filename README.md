@@ -63,6 +63,9 @@ when applied to the three example files:
 
 * OPTFF always has the fewest misses.
 * The miss rates of FIFO and LRU are similar.
+  This may be partially due to the fact that the access patterns in the example
+  files are random, unlike real-world scenarios where some requests may be
+  more frequent.
 
 ## Bad Sequence for LRU or FIFO
 
